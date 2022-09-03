@@ -1,0 +1,7 @@
+print("How many kilometers did you run today?")
+kms = input() #input gets input and saves value in an variable
+miles = float(kms)/1.60934 #convert input in a float and divide it by float mile conversion
+#miles = round(miles, 2)
+print(f"That is equal to {round(miles, 2)} miles ")
+
+#round(thing to round, how many decimal points) #used f string to concatenate string and float
